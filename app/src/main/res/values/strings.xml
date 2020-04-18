@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">GroceriesApplicationStartNG</string>
+
+    <string-array name="fruit_name">
+
+        <item>Mango</item>
+        <item>Apple</item>
+        <item>Strawberry</item>
+        <item>Banana</item>
+        <item>Water Melon</item>
+        <item>Orange</item>
+        <item>Pineapple</item>
+        <item>Coconut</item>
+        <item>Grape Wine</item>
+        <item>Cherry</item>
+        <item>Kiwi</item>
+        <item>StarFruit</item>
+        <item>Lime</item>
+    </string-array>
+
+
+    <string-array name="fruit_price">
+
+        <item>500 naira</item>
+        <item>1000 naira</item>
+        <item>1500 naira</item>
+        <item>800 naira</item>
+        <item>2500 naira</item>
+        <item>1000 naira</item>
+        <item>2500 naira</item>
+        <item>1500 naira</item>
+        <item>2000 naira</item>
+        <item>1500 naira</item>
+        <item>3500 naira</item>
+        <item>3000 naira</item>
+        <item>400 naira</item>
+    </string-array>
+</resources>

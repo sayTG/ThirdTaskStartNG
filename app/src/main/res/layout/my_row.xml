@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+    <ImageView
+            android:id="@+id/recycler_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/farmer"/>
+
+        <TextView
+            android:id="@+id/fresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/recycler_image"
+            android:text="Fresh"
+            android:textColor="#ffffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of the fruit"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/recycler_image"
+            android:layout_below="@+id/fresh"
+            android:textColor="#ffffffff"/>
+
+        <TextView
+            android:id="@+id/gram_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="41dp"
+            android:layout_toRightOf="@id/recycler_image"
+            android:text="500g Price: "
+            android:textColor="#ffffffff"
+            android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="41dp"
+        android:layout_toRightOf="@id/gram_price"
+        android:text="price"
+        android:textColor="#222525"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-75dp"
+        android:layout_marginEnd="9dp"
+        android:background="#00C853"
+        android:text="Add to Cart"
+        android:textAllCaps="false"
+        android:textColor="#ffffffff"
+        android:textSize="16sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
