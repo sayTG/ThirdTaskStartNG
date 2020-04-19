@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name of the fruit"
-            android:textSize="20sp"
+            android:textSize="17sp"
             android:layout_toRightOf="@id/recycler_image"
             android:layout_below="@+id/fresh"
             android:textColor="#ffffffff"/>
@@ -51,10 +51,10 @@
             android:layout_toRightOf="@id/recycler_image"
             android:text="500g Price: "
             android:textColor="#ffffffff"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/price"
+        android:id="@+id/display_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/name"
@@ -63,22 +63,31 @@
         android:layout_toRightOf="@id/gram_price"
         android:text="price"
         android:textColor="#222525"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
-    <Button
-        android:id="@+id/add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/price"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="-75dp"
-        android:layout_marginEnd="9dp"
-        android:background="#00C853"
-        android:text="Add to Cart"
-        android:textAllCaps="false"
-        android:textColor="#ffffffff"
-        android:textSize="16sp" />
+        <Button
+            android:id="@+id/add"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="41dp"
+            android:layout_alignParentEnd="true"
+            android:background="#00C853"
+            android:text="Add to Cart"
+            android:textAllCaps="false"
+            android:textColor="#ffffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="Count"
+            android:textColor="#D50000"
+            android:textSize="16sp" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
 
